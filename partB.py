@@ -1,4 +1,3 @@
-
 from collections import defaultdict
 
 
@@ -14,11 +13,6 @@ def undoom(a,b):
                      
                      d[i]=l.count(i)
     validate(4,4)
-
-
-    
-
-
 probabulity = d
 
 def printdd():
