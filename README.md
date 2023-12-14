@@ -13,6 +13,7 @@ Question 3 output:
 
 Part B output:
 
-<img width="1440" alt="Screenshot 2023-12-13 at 3 04 53 PM" src="https://github.com/sunilrevella/Securinassesment/assets/91406189/6a585a27-1893-4955-91cc-5e6150a55b40">
+![image](https://github.com/sunilrevella/Securinassesment/assets/91406189/ee496fea-c42a-462f-b7ab-cde9fb0de135)
+
 
 
