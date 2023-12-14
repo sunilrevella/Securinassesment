@@ -9,7 +9,7 @@ def undoom(a,b):
     for i in a:
         for j in b:
             l.append(sum([i,j]))
-    for i in range(2,13):
+    for i in range(2,13): 
                      
                      d[i]=l.count(i)
     validate(0,0)
