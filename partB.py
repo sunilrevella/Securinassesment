@@ -12,7 +12,7 @@ def undoom(a,b):
     for i in range(2,13):
                      
                      d[i]=l.count(i)
-    validate(4,4)
+    validate(0,0)
 probabulity = d
 
 def printdd():
