@@ -1,10 +1,28 @@
 
 from collections import defaultdict
 
-A = [0,0,0,0,0,0]
-B = [0,0,0,0,0,0]
-probabulity = {2: 1,3: 2,4: 3,5: 4,6: 5,7: 6,8: 5,9: 4,10: 3,11: 2,12: 1}
+
+l=[]
+d=dict()
+
+def undoom(a,b):
+    l=[]
+    for i in a:
+        for j in b:
+            l.append(sum([i,j]))
+    for i in range(2,13):
+                     
+                     d[i]=l.count(i)
+    validate(4,4)
+
+
+    
+
+
+probabulity = d
+
 def printdd():
+    
     print("Die A-->", end=" ")
     for i in range(6):
         print(A[i], end=",")
@@ -15,7 +33,7 @@ def printdd():
     print()
 
 def checkcombination():
-    printdd()
+    
     calprob=defaultdict(int)
     for i in range(6):
         for j in range(6):
@@ -39,6 +57,11 @@ def validate(RA, RB):
             A[RA] = RAF
             B[RB] = RBF
             validate(RA + 1, RB + 1)
+A = [0,0,0,0,0,0]
+B = [0,0,0,0,0,0]
+a=[1,2,3,4,5,6]
+b=[1,2,3,4,5,6]
 
-validate(0,0)
+
+undoom(a,b)
 
